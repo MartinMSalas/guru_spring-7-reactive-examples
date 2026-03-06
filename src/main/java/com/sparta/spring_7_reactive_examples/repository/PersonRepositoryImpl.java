@@ -16,10 +16,10 @@ import java.util.stream.Collectors;
  * Description: beExcellent
  */
 public class PersonRepositoryImpl implements PersonRepository {
-    Person cachito = Person.builder().personId(123).firstName("Cachito").lastName("El campeon de Corrientes").build();
-    Person elena = Person.builder().personId(124).firstName("Elena").lastName("la de troya").build();
-    Person diostri = Person.builder().personId(125).firstName("Diostri").lastName("El rey del Salame").build();
-    Person sereno = Person.builder().personId(126).firstName("Sereno").lastName("La conexion").build();
+    Person cachito = Person.builder().personId(1).firstName("Cachito").lastName("El campeon de Corrientes").build();
+    Person elena = Person.builder().personId(2).firstName("Elena").lastName("la de troya").build();
+    Person diostri = Person.builder().personId(3).firstName("Diostri").lastName("El rey del Salame").build();
+    Person sereno = Person.builder().personId(4).firstName("Sereno").lastName("La conexion").build();
 
 
     private List<Person> personList = List.of(cachito, elena, diostri, sereno);
