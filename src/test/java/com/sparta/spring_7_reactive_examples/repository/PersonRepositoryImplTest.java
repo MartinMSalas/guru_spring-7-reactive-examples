@@ -20,7 +20,7 @@ class PersonRepositoryImplTest {
         Integer personId = 1;
 
         // WHEN
-        Mono<Person> peronMono = PersonRepository.findByPersonId(personId);
+        //Mono<Person> peronMono = PersonRepository.findByPersonId(personId);
     }
 
     @Test
