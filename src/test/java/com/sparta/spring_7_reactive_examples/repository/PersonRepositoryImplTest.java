@@ -68,9 +68,7 @@ class PersonRepositoryImplTest {
         // THEN
         assertNotNull(personMono);
         System.out.println(personMono.toString());
-        personMono.map(person -> {
-            return person.getFirstName();
-        }).subscribe( firstName -> System.out.println(firstName));
+        personMono.map(Person::getFirstName).subscribe(System.out::println);
 
     }
 
